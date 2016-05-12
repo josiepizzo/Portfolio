@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#form-main{
+  float:left;
+  padding-top:0px;
+  width:100%;
+}
+
+#form-div {
+  width: 450px;
+}
+
+.feedback-input {
+  color:#3c3c3c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width:100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+  background: #fff;
+  border: 3px solid #3498db;
+  box-shadow: 0;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+  border:#30aed6 solid 3px;
+  color:#30aed6;
+}
+
+/* Icons ---------------------------------- */
+#name{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#name:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+  background-position: 11px 8px;
+  background-position: 8px 5px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#email{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#email:focus{
+  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#comment{
+  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+  width: 100%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  background-color:white;
+}
+
+#button-blue{
+  background-color: #3c948b;
+  border: #fbfbfb solid 4px;
+  color:white;
+  cursor:pointer;
+  float:left;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size:24px;
+  font-weight:700;
+  margin-top:-4px;
+  padding-bottom:22px;
+  padding-top:22px;
+  width: 100%;
+}
+
+#button-blue:hover{
+  background-color: rgba(0,0,0,0);
+  color: #3c948b;
+}
+  
+.submit:hover {
+  background-color:white;
+  color: #3498db;
+  width:100%;
+}
+
+@media only screen and (max-width: 580px) {
+  #form-div{
+    left: 3%;
+    margin-left: 0;
+    margin-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 88%;
+  }
+}

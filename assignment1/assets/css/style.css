@@ -1,0 +1,246 @@
+body {
+	color: #333333;
+	font-family: "Arial",Helvetica,serif;
+	font-size: 18px;
+	line-height: 150%;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-size: 24px;
+}
+.container {
+	background-color: #e1e3e4;
+	margin-top: 30px;
+	margin: 0 auto;
+	width: 1024px;
+}
+/* HEADER */
+#header {
+	background-color: white;
+	height: 60px;
+	position: relative;
+}
+.main{
+	background-color: white;
+	font-size: 14px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	width: 950px;
+}
+.name_tag{
+	background-color: #3c948b;
+	float: left;
+	margin-left: 80px;
+	width: 280px;
+}
+.name_tag a{
+  color:white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.name_tag_text{
+	color: #eee;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+}
+/* NAV */
+
+.nav {
+  display: inline;
+  float: right;
+  line-height: 48px;
+  position: relative;
+  width: 300px;
+}
+.menu {
+  float: left;
+}
+.main_nav {
+  background-color: #f4f4f4;
+  list-style-type: none;
+}
+.main_list {
+  float: left;
+}
+/* unvisited link */
+li a{
+  color: #202121;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+/* mouse over link */
+li a:hover {
+  background-color: #3c948b;
+  color:white;
+}
+/* selected link */
+li a:active {
+    color: #e1e3e4;
+}
+/* active link */
+.active {
+  background-color: #3c948b;
+  color:white;
+}
+#main-bio {
+	background-color: white;
+	clear: both;
+	float: left;
+	margin-left: 80px;
+	padding: 20px;
+	width: 500px;
+}
+.main-bio-text{
+	margin-bottom: 10px;
+}
+#bio-image {
+	float: left;
+	height: 200px;
+	margin-right: 20px;
+	width: 170px;
+}
+.bio-link {
+	color: #0261a0 !important;
+  line-height: 16px;
+  text-decoration: none !important;
+}
+/* CONTACT LIST */
+#contact-info {
+  background-color: white;
+  float: right;
+  margin-right: 115px;
+  padding: 20px;
+  width: 20%;
+}
+.list-share{
+	display: inline-block;
+  padding-top: 70px;
+}
+.list-share li {
+  border: 1px solid #ccc;
+  cursor: pointer;
+  float: left;
+  height: 49px;
+  margin-right: 5px;
+  overflow: hidden;
+  transform: translateZ(0px);
+  transition: all 0.25s ease-out 0s;
+  width: 55px;
+}
+.list-share li a:hover {
+  background-color: black;
+}
+
+.git_hub{
+  background-color:transparent;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+.twitter{
+  background-color:transparent;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+.linkedin{
+  background-color:transparent;
+  display: block;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+/* PORTFOLIO */
+#content {
+  background: #fff url("./assets/images/content-bg.png") repeat-y scroll 0 0;
+  float: left;
+  margin-left: 80px;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 20px;
+  width: 50%;
+}
+.portfolio-item {
+  background: #eee none repeat scroll 0 0;
+  float: left;
+  height: 142px;
+  margin: 20px 20px 40px 40px;
+  padding: 4px;
+  text-align: center;
+  width: 182px;
+ }
+ #content .portfolio-item p.btn {
+  background-color: #3c948b;
+  margin: 0;
+}
+ #content .portfolio-item a.image_text {
+  color: #fff;
+  margin: 0;
+  text-decoration: none;
+}
+/* FOOTER */
+#footer {
+  clear: both;
+  color: #444;
+  margin-top: 1px;
+  overflow: hidden;
+  padding-top:20px;
+  position: relative;
+}
+#footer .box-featured {
+  border-top: 3px solid #3C948B;
+  background: #202121;
+  border-bottom: 1px solid #333;
+  overflow: hidden;
+  padding: 20px 0 0 0;
+}
+#footer .box-featured h4 {
+  clear: both;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#footer .box-featured h4 span {
+  color: #3C948B;
+}
+<style>
+@media (max-width: 980px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  #contact-info {
+    clear: both;
+  float: left;
+  margin-right: 0px;
+  margin-left: 80px
+  margin-top:30px;
+  padding: 20px;
+  width: 20%;
+}
+}
+.name_tag_text{
+  font-size: 15px;
+}
+}
+  #header {
+    position: static;
+  }
+.portfolio-item{
+  margin-left: 20px;
+}
+
+
+
+</style>

@@ -249,6 +249,8 @@ li a {
   padding: 14px 12px;
   font-size: 11px;
 }
-
-
+#footer .box-featured h4 {
+  width: 60%;
+}
+}
 </style>

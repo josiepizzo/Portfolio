@@ -7,7 +7,9 @@ body {
 	padding: 0;
 }
 h2 {
+  border-bottom: 2px solid #eee;
 	font-size: 24px;
+  margin-bottom: 20px;
 }
 .container {
 	background-color: #e1e3e4;
@@ -50,7 +52,7 @@ h2 {
 .nav {
   display: inline;
   float: right;
-  line-height: 48px;
+  line-height: 32px;
   position: relative;
   width: 300px;
 }
@@ -79,7 +81,7 @@ li a:hover {
 }
 /* selected link */
 li a:active {
-    color: #e1e3e4;
+  color: #e1e3e4;
 }
 /* active link */
 .active {
@@ -87,12 +89,13 @@ li a:active {
   color:white;
 }
 #main-bio {
-	background-color: white;
-	clear: both;
-	float: left;
-	margin-left: 80px;
-	padding: 20px;
-	width: 500px;
+  background-color: white;
+  clear: both;
+  float: left;
+  margin-left: 80px;
+  padding: 20px;
+  width: 500px;
+  margin-top: 25px;
 }
 .main-bio-text{
 	margin-bottom: 10px;
@@ -112,13 +115,14 @@ li a:active {
 #contact-info {
   background-color: white;
   float: right;
-  margin-right: 115px;
+  margin-right: 130px;
   padding: 20px;
   width: 20%;
+  margin-top: 25px;
 }
 .list-share{
 	display: inline-block;
-  padding-top: 70px;
+  padding-top: 2px;
 }
 .list-share li {
   border: 1px solid #ccc;
@@ -162,14 +166,14 @@ li a:active {
   margin-top: 20px;
   overflow: hidden;
   padding: 20px;
-  width: 50%;
+  width: 500px;
 }
 .portfolio-item {
   background: #eee none repeat scroll 0 0;
   float: left;
   height: 142px;
   margin: 20px 20px 40px 40px;
-  padding: 4px;
+  padding: 2px;
   text-align: center;
   width: 182px;
  }
@@ -192,9 +196,9 @@ li a:active {
   position: relative;
 }
 #footer .box-featured {
-  border-top: 3px solid #3C948B;
   background: #202121;
   border-bottom: 1px solid #333;
+  border-top: 3px solid #3C948B;
   overflow: hidden;
   padding: 20px 0 0 0;
 }
@@ -208,49 +212,112 @@ li a:active {
 #footer .box-featured h4 span {
   color: #3C948B;
 }
+
+/* MEDIA QUERIES  MAX WIDTH 980PX*/
 <style>
 @media (max-width: 980px) {
-  .facet_sidebar {
-    display: none;
-  }
+.nav {
+    display: inline;
+    float: right;
+    line-height: 32px;
+    position: relative;
+    width: 300px;
 }
+}
+
+/* MEDIA QUERIES  MAX WIDTH 768PX*/
 @media (max-width: 768px) {
-  .facet_sidebar {
-    display: none;
-  }
+#contact-info {
+  clear: both;
+  float: left;
+  margin-left: 55px;
+  margin-right: 0px;
+  margin-top:20px;
+  padding: 20px;
+  width: 25%;
 }
+.container{
+  width: 768px;
+}
+#content{
+  margin-left: 55px;
+}
+h2{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+li a {
+  padding: 12px 16px;
+}
+.list-share{
+  padding-top: 2px;
+}
+.main{
+  font-size: 12px;
+}
+#main-bio{
+  width: 620px;
+  margin-left: 55px;
+}
+.main-bio-text{
+  font-size: 15px;
+}
+.name_tag{
+  margin-left: 55px;
+}
+.nav {
+  float: left;
+  line-height: 36px;
+  margin-left: 115px;
+  position: relative;
+  width: 300px;
+}
+}
+
+/* MEDIA QUERIES  MAX WIDTH 640PX*/
 @media (max-width: 640px) {
   #contact-info {
-    clear: both;
+  clear: both;
   float: left;
+  margin-left: 50px;
   margin-right: 0px;
-  margin-left: 80px;
   margin-top:30px;
   padding: 20px;
-  width: 20%;
+  width: 25%;
+}
+#content{
+  margin-left: 50px;
+}
+#footer .box-featured h4 {
+  width: 80%;
+}
+
+#header {
+  position: static;
+}
+li a {
+  font-size: 11px;
+  padding: 14px 12px;
+}
+#main-bio{
+  width: 500px;
+  margin-left: 50px;
+}
+.name_tag{
+  margin-left: 50px;
 }
 .name_tag_text{
   font-size: 15px;
 }
-  #header {
-    position: static;
-  }
-.portfolio-item{
-  margin-left: 20px;
-}
 .nav {
   float: left;
   line-height: 32px;
+  margin-left: 35px;
   position: relative;
   width: 300px;
-  margin-left: 26px;
 }
-li a {
-  padding: 14px 12px;
-  font-size: 11px;
-}
-#footer .box-featured h4 {
-  width: 60%;
+.portfolio-item{
+  margin-left: 20px;
 }
 }
 </style>

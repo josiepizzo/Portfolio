@@ -234,7 +234,7 @@ li a:active {
   margin-right: 0px;
   margin-top:20px;
   padding: 20px;
-  width: 25%;
+  width: 65%;
 }
 .container{
   width: 768px;
@@ -279,11 +279,11 @@ li a {
   #contact-info {
   clear: both;
   float: left;
-  margin-left: 50px;
+  margin-left: 36px;
   margin-right: 0px;
   margin-top:30px;
   padding: 20px;
-  width: 25%;
+  width: 65%;
 }
 #content{
   margin-left: 50px;
@@ -291,30 +291,37 @@ li a {
 #footer .box-featured h4 {
   width: 80%;
 }
-
-#header {
-  position: static;
-}
 li a {
   font-size: 11px;
   padding: 14px 12px;
 }
+.main{
+  margin: 0px;
+  height: 120px
+}
 #main-bio{
   width: 500px;
-  margin-left: 50px;
+  margin-left: 36px;
+}
+.main_list{
+  padding-left: 78px;
+  padding-right: 27px;
 }
 .name_tag{
-  margin-left: 50px;
+  margin: 0px;
+  width: 100%;
 }
 .name_tag_text{
   font-size: 15px;
+  text-align: left;
+  padding-left: 220px;
 }
 .nav {
   float: left;
-  line-height: 32px;
-  margin-left: 35px;
+  line-height: 33px;
+  margin-left: 0px;
   position: relative;
-  width: 300px;
+  width: 100%;
 }
 .portfolio-item{
   margin-left: 20px;
